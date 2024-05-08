@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Malopoints</h1>
+
+<div id="malopoints">
+  <% @malopoints.each do |malopoint| %>
+    <%= render malopoint %>
+    <p>
+      <%= link_to "Show this malopoint", malopoint %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New malopoint", new_malopoint_path %>

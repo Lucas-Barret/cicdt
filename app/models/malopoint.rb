@@ -1,0 +1,2 @@
+class Malopoint < ApplicationRecord
+end

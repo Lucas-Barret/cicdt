@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @malopoint %>
+
+<div>
+  <%= link_to "Edit this malopoint", edit_malopoint_path(@malopoint) %> |
+  <%= link_to "Back to malopoints", malopoints_path %>
+
+  <%= button_to "Destroy this malopoint", @malopoint, method: :delete %>
+</div>
